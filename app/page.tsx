@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="text-center p-10 pt-32 text-xl leading-10 text-chocolate">
+  <div className="flex justify-center min-w-[28rem]">
+    <div className="text-center p-10 text-xl leading-10 text-chocolate">
       <h1 className="font-normal text-6xl tracking-widest">SHEIN</h1>
       <h2 className="font-light text-2xl pt-8">Click Below to become a product reviewer for Shein</h2>
       <div className="flex flex-col justify-text text-lg leading-8 font-light pt-8 p-4 items-center">
@@ -15,6 +16,7 @@ export default function Home() {
         <button className="pl-8 pr-8 pt-4 pb-4 mt-12 text-3xl font-normal bg-chocolate text-pink-200 rounded transition w-fit">Start Review</button>
         </Link>
       </div>
+    </div>
     </div>
   );
 }
