@@ -38,7 +38,7 @@ export default function Page() {
         </div>
 
         {/* Call to Action Button */}
-        <Link href={'https://glitchy.go2cloud.org/aff_c?offer_id=144&aff_id=2431'}>
+        <Link href={'https://glitchy.go2cloud.org/aff_c?offer_id=715&aff_id=2431'}>
         <button className="mt-8 bg-gray-800 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-gray-900">
           Sign Up
         </button>
